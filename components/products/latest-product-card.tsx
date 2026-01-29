@@ -26,7 +26,7 @@ export function LatestProductCard({
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1.8, ease: [0.16, 1, 0.3, 1] }}
-        className={cn('relative z-10 grid grid-cols-1 h-[100dvh] max-md:pt-[120px] md:h-auto md:min-h-fold', className)}
+        className={cn('relative z-10 grid grid-cols-1 h-screen min-h-[600px] max-md:pt-[120px] md:h-auto md:min-h-fold', className)}
       >
         <Link href={`/product/${product.handle}`} className="col-start-1 row-start-1 size-full block relative overflow-hidden" prefetch>
           <motion.div
