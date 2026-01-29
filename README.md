@@ -1,0 +1,2 @@
+# Shopify Ecommerce Template
+
